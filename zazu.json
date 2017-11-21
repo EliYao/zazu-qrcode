@@ -1,0 +1,25 @@
+{
+  "name": "zazu-qrcode",
+  "version": "0.1.0",
+  "description": "Zazu QR Code tool",
+  "blocks": {
+    "input": [
+      {
+        "id": "hello",
+        "type": "Keyword",
+        "keyword": "hello",
+        "title": "Hello!",
+        "subtitle": "Please type your name!",
+        "icon": "fa-hand-spock-o",
+        "connections": ["GoHome"]
+      },
+    ],
+    "output": [
+      {
+        "id": "GoHome",
+        "type": "OpenInBrowser",
+        "url": "https://github.com/tinytacoteam/zazu-template"
+      }
+    ]
+  }
+}
